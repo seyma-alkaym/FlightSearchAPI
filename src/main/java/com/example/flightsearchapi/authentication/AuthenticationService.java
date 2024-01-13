@@ -1,9 +1,9 @@
 package com.example.flightsearchapi.authentication;
 
 import com.example.flightsearchapi.config.JwtService;
-import com.example.flightsearchapi.user.Role;
-import com.example.flightsearchapi.user.User;
-import com.example.flightsearchapi.user.UserRepository;
+import com.example.flightsearchapi.entity.Role;
+import com.example.flightsearchapi.entity.User;
+import com.example.flightsearchapi.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

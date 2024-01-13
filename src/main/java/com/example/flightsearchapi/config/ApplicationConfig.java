@@ -1,6 +1,6 @@
 package com.example.flightsearchapi.config;
 
-import com.example.flightsearchapi.user.UserRepository;
+import com.example.flightsearchapi.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

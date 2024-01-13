@@ -1,5 +1,6 @@
-package com.example.flightsearchapi.user;
+package com.example.flightsearchapi.repository;
 
+import com.example.flightsearchapi.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
