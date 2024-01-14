@@ -22,11 +22,11 @@ public class Flight {
     private Long id;
 
     @JoinColumn(name = "departure_airport_id", referencedColumnName = "id")
-    @ManyToOne(optional = false, fetch = FetchType.EAGER)
+    @ManyToOne(optional = false, fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
     private Airport departureAirport;
 
     @JoinColumn(name = "arrival_airport_id", referencedColumnName = "id")
-    @ManyToOne(optional = false, fetch = FetchType.EAGER)
+    @ManyToOne(optional = false, fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
     private Airport arrivalAirport;
 
     @Column(name = "departure_date_time")
@@ -36,4 +36,6 @@ public class Flight {
     private LocalDateTime returnDateTime;
 
     private BigDecimal price;
+
+    private Boolean isDeleted;
 }

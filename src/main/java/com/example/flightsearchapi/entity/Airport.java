@@ -18,4 +18,6 @@ public class Airport {
     private Long id;
 
     private String city;
+
+    private Boolean isDeleted;
 }
