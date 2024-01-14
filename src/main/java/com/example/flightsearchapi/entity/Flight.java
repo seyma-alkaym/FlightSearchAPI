@@ -1,6 +1,5 @@
 package com.example.flightsearchapi.entity;
 
-import com.example.flightsearchapi.entity.Airport;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

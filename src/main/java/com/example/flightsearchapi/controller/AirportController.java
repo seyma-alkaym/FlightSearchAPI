@@ -1,11 +1,8 @@
 package com.example.flightsearchapi.controller;
 
 import com.example.flightsearchapi.dto.AirportDto;
-import com.example.flightsearchapi.dto.FlightDto;
 import com.example.flightsearchapi.entity.Airport;
-import com.example.flightsearchapi.entity.Flight;
 import com.example.flightsearchapi.service.AirportService;
-import com.example.flightsearchapi.service.FlightService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
