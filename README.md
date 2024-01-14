@@ -67,7 +67,7 @@ Authentication is implemented to secure the API endpoints.
 ## Setup
 
 1. Clone the repository
-2. Configure the database connection in `application.properties`
+2. Configure the database connection in `application.yml`
 3. Run the application
 4. Access the Swagger documentation at `http://localhost:8080/swagger-ui/index.html`
 
